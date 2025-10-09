@@ -68,10 +68,10 @@ header {
 
 /* Hide navbar when fullscreen is active */
 #nbar.hidden {
-  opacity: 0;
-  transform: translateY(-100%);
-  pointer-events: none;
-  transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 0;
+    transform: translateY(-100%);
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 header .navbar ul {
@@ -324,36 +324,41 @@ header .fa-times {
 
 /* --- Fullscreen Overlay --- */
 .fullscreen {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.95);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  cursor: zoom-out;
-  opacity: 0;
-  animation: fadeIn 0.4s ease forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    cursor: zoom-out;
+    opacity: 0;
+    animation: fadeIn 0.4s ease forwards;
 }
 
 .fullscreen img {
-  max-width: 95%;
-  max-height: 95%;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.2);
-  transform: scale(0.95);
-  animation: zoomIn 0.4s ease forwards;
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transform: scale(0.95);
+    animation: zoomIn 0.4s ease forwards;
 }
 
 /* --- Animations --- */
 @keyframes fadeIn {
-  to { opacity: 1; }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes zoomIn {
-  to { transform: scale(1); }
+    to {
+        transform: scale(1);
+    }
 }
 
 /* img section ends */
@@ -710,12 +715,28 @@ textarea:focus {
         padding: 0;
     }
 
-    .carousel button {
-        font-size: 1.5rem;
-        padding: 6px 12px;
+    .carousel {
+        max-width: 95%;
     }
 
     .carousel img {
         max-height: 300px;
+    }
+
+    .carousel button.prev,
+    .carousel button.next {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+
+    .caption {
+        font-size: 0.8rem;
+        padding: 8px 0;
+    }
+
+    .page-number {
+        font-size: 0.75rem;
+        bottom: 35px;
+        right: 8px;
     }
 }
