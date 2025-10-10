@@ -84,4 +84,3 @@ $(document).ready(function () {
 
 });
 
-alert("working to add more notes")
