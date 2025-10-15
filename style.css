@@ -238,7 +238,7 @@ header .fa-times {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     max-width: 1000px;
     margin: auto;
 }
@@ -271,11 +271,12 @@ header .fa-times {
     text-decoration: underline;
 }
 
-.course .privacy-container-d .no_cap{
+.course .privacy-container-d .no_cap {
     text-transform: none;
 }
+
 /* img section starts */
- .imp-material {
+.imp-material {
     display: flex;
     justify-content: center;
 }
@@ -295,7 +296,7 @@ header .fa-times {
 }
 
 /* --- Images --- */
- .carousel img {
+.carousel img {
     width: auto;
     max-width: 100%;
     max-height: 400px;
@@ -387,6 +388,22 @@ header .fa-times {
     animation: zoomIn 0.4s ease forwards;
 }
 
+.summary {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.summary p {
+    margin: 10px 0;
+    color: #444;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.3rem;
+}
+
 /* --- Animations --- */
 @keyframes fadeIn {
     to {
@@ -398,7 +415,7 @@ header .fa-times {
     to {
         transform: scale(1);
     }
-} 
+}
 
 /* img section ends */
 
@@ -721,6 +738,10 @@ textarea:focus {
 
     .home::before {
         display: none;
+    }
+
+    .summary {
+        padding: 1.5rem 2rem;
     }
 
     .about .row {
