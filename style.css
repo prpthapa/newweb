@@ -80,7 +80,7 @@ header .navbar ul li {
 }
 
 header .navbar ul li a {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--pink);
     transition: .2s;
 }
@@ -230,8 +230,52 @@ header .fa-times {
     z-index: -1;
 }
 
+/* privacy policy page */
+
+.course .privacy-container-d {
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.course .privacy-container-d h3 {
+    color: var(--pink);
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+
+.course .privacy-container-d p {
+    margin: 10px 0;
+    color: #444;
+}
+
+.course .privacy-container-d ul {
+    margin-left: 20px;
+}
+
+.course .privacy-container-d ul li {
+    margin: 5px 0;
+}
+
+.course .privacy-container-d a {
+    color: #1565c0;
+    text-decoration: none;
+}
+
+.course .privacy-container-d a:hover {
+    text-decoration: underline;
+}
+
+.course .privacy-container-d .no_cap{
+    text-transform: none;
+}
 /* img section starts */
-.imp-material {
+/* .imp-material {
     display: flex;
     justify-content: center;
 }
@@ -251,11 +295,11 @@ header .fa-times {
 }
 
 /* --- Images --- */
-.carousel img {
+/* .carousel img {
     width: auto;
     max-width: 100%;
     max-height: 400px;
-    /* controls height */
+    /* controls height 
     display: none;
     object-fit: contain;
     margin-bottom: 15px;
@@ -266,7 +310,7 @@ header .fa-times {
     display: block;
 }
 
-/* --- Navigation Buttons --- */
+/* --- Navigation Buttons --- *
 .carousel button {
     position: absolute;
     top: 50%;
@@ -304,7 +348,7 @@ header .fa-times {
     font-weight: 500;
 }
 
-/* --- Page Number --- */
+/* --- Page Number --- *
 .page-number {
     position: absolute;
     bottom: 50px;
@@ -317,7 +361,7 @@ header .fa-times {
     user-select: none;
 }
 
-/* --- Fullscreen Overlay --- */
+/* --- Fullscreen Overlay --- *
 .fullscreen {
     position: fixed;
     top: 0;
@@ -343,7 +387,7 @@ header .fa-times {
     animation: zoomIn 0.4s ease forwards;
 }
 
-/* --- Animations --- */
+/* --- Animations --- *
 @keyframes fadeIn {
     to {
         opacity: 1;
@@ -354,7 +398,7 @@ header .fa-times {
     to {
         transform: scale(1);
     }
-}
+} */ 
 
 /* img section ends */
 
