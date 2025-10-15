@@ -275,7 +275,7 @@ header .fa-times {
     text-transform: none;
 }
 /* img section starts */
-/* .imp-material {
+ .imp-material {
     display: flex;
     justify-content: center;
 }
@@ -295,11 +295,11 @@ header .fa-times {
 }
 
 /* --- Images --- */
-/* .carousel img {
+ .carousel img {
     width: auto;
     max-width: 100%;
     max-height: 400px;
-    /* controls height 
+    /* controls height */
     display: none;
     object-fit: contain;
     margin-bottom: 15px;
@@ -310,7 +310,7 @@ header .fa-times {
     display: block;
 }
 
-/* --- Navigation Buttons --- *
+/* --- Navigation Buttons --- */
 .carousel button {
     position: absolute;
     top: 50%;
@@ -348,7 +348,7 @@ header .fa-times {
     font-weight: 500;
 }
 
-/* --- Page Number --- *
+/* --- Page Number --- */
 .page-number {
     position: absolute;
     bottom: 50px;
@@ -361,7 +361,7 @@ header .fa-times {
     user-select: none;
 }
 
-/* --- Fullscreen Overlay --- *
+/* --- Fullscreen Overlay --- */
 .fullscreen {
     position: fixed;
     top: 0;
@@ -387,7 +387,7 @@ header .fa-times {
     animation: zoomIn 0.4s ease forwards;
 }
 
-/* --- Animations --- *
+/* --- Animations --- */
 @keyframes fadeIn {
     to {
         opacity: 1;
@@ -398,7 +398,7 @@ header .fa-times {
     to {
         transform: scale(1);
     }
-} */ 
+} 
 
 /* img section ends */
 
