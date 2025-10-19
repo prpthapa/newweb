@@ -43,6 +43,15 @@ html {
     color: #aaa;
 }
 
+p.para {
+    font-size: 1.6rem;
+    padding: 2rem 20rem;
+    color: #666;
+    line-height: 2.5rem;
+    text-align: justify;
+   
+}
+
 header {
     width: 96%;
     background: #fff;
@@ -752,6 +761,10 @@ textarea:focus {
 
     .summary {
         padding: 1.5rem 2rem;
+    }
+    
+    p.para {
+    padding: 2rem 2rem;  
     }
 
     .about .row {

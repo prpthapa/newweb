@@ -84,6 +84,66 @@
             <div class="page-number">1 / 3</div>
         </div>
     </div>
+    <div class="summary">
+        <h3>Alternating Current (AC)</h3>
+
+        <p>Alternating current (AC) is an electric current in which the flow of electric charge periodically reverses direction. Unlike direct current (DC), which flows steadily in one direction, AC continually changes its magnitude and direction over time, making it the backbone of modern power systems and household electricity.</p>
+
+        <h3>Key Characteristics</h3>
+        <ul>
+            <li><p><strong>Frequency (f):</strong> The number of complete cycles per second (measured in hertz, Hz). Many power systems use 50 Hz or 60 Hz.</li>
+            <li><p><strong>Period (T):</strong> Time taken to complete one cycle. T = 1 / f.</li>
+            <li><p><strong>Amplitude or Peak Value:</strong> The maximum instantaneous value of voltage or current in the cycle.</li>
+            <li><p><strong>Root-Mean-Square (RMS) Value:</strong> A meaningful equivalent DC value of an AC waveform used for power calculations.</li>
+            <li><p><strong>Waveform:</strong> Usually sinusoidal in power supplies but can take other shapes in specialised circuits.</li>
+        </ul>
+
+        <h3>Mathematical Representation</h3>
+        <p>For a sinusoidal voltage or current, the instantaneous value can be described as: <br>
+            <strong>v(t) = V₀ sin(ωt + φ)</strong> <br> where V₀ is the peak voltage, ω = 2πf is angular frequency, t is time, and φ is the phase angle.
+        </p>
+
+        <h3>Components of an AC Circuit</h3>
+        <p>AC circuits can include resistors (R), inductors (L) and capacitors (C). Each element responds differently to changing current: the voltages and currents may not be in phase and the opposition to current is described by impedance (Z) rather than pure resistance.</p>
+        <ul>
+            <li><p><strong>Resistor (R):</strong> Current and voltage are in phase; impedance equals resistance.</li>
+            <li><p><strong>Inductor (L):</strong> Current lags voltage; inductive reactance X<sub>L</sub> = ωL.</li>
+            <li><p><strong>Capacitor (C):</strong> Current leads voltage; capacitive reactance X<sub>C</sub> = 1 / (ωC).
+            </li>
+            <li><p><strong>RLC Series/Parallel Circuits:</strong> Combination of R, L and C leads to complex behaviour, phase shifts and resonance phenomena. :contentReference[oaicite:4]{index=4}</li>
+        </ul>
+
+        <h3>Impedance and Phase Angle</h3>
+        <p>In AC circuits, impedance (Z) is the total opposition to current flow and combines resistance and reactance: <br>
+            <strong>Z = √(R² + (X<sub>L</sub> − X<sub>C</sub>)²)</strong> <br>
+            The phase angle φ between current and voltage is given by: <br>
+            <strong>φ = tan⁻¹((X<sub>L</sub> − X<sub>C</sub>) / R)</strong> :contentReference[oaicite:5]{index=5}
+        </p>
+
+        <h3>Power in AC Circuits</h3>
+        <p>AC circuits have several types of power: <br>
+            • <strong>Real (Active) Power (P):</strong> The useful power consumed by resistive elements (W). <br>
+            • <strong>Reactive Power (Q):</strong> The power that oscillates between source and reactive components
+            (var). <br>
+            • <strong>Apparent Power (S):</strong> The product of RMS voltage and RMS current (VA). <br>
+            The relation between them can be described via the power triangle: <br>
+            <strong>P = S × cos φ</strong>, where cos φ is the power factor. :contentReference[oaicite:6]{index=6}
+        </p>
+
+        <h3>Applications of AC</h3>
+        <p>Alternating current plays a vital role in modern electrical systems:</p>
+        <ul>
+            <li><p>Efficient long-distance transmission of power using transformers to step up and step down voltage.</li>
+            <li><p>Household and industrial supply systems because AC generation and conversion are simpler and more reliable.</li>
+            <li><p>Complex circuits and devices (RLC filters, resonance circuits) used in radio, signal processing and power electronics.</li>
+            <li><p>Utilisation of three-phase AC systems to provide balanced power and efficient motor operation.</li>
+        </ul>
+
+        <h3>Summary</h3>
+        <p>In summary, alternating current is a core concept in physics and electrical engineering. By constantly
+            varying direction and magnitude, AC enables power transmission, flexible voltage conversion, and complex circuit functionality. Understanding frequency, waveform, impedance, phase relationships and power in AC circuits is essential for designing and operating modern electrical systems.</p>
+
+    </div>
     <!-- about section starts -->
 
     <section class="about" id="about">
