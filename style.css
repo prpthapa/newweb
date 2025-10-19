@@ -30,7 +30,7 @@ html {
     color: var(--pink);
     text-align: center;
     padding: 0 1rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
     letter-spacing: .2rem;
     font-weight: 500;
 }
@@ -402,6 +402,16 @@ header .fa-times {
     font-size: 1.5rem;
     text-align: justify;
     line-height: 2.3rem;
+}
+
+.summary h3{
+    color: var(--pink);
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.summary ul li span.no_cap {
+    text-transform: none;
 }
 
 /* --- Animations --- */
