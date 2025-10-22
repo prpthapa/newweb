@@ -638,7 +638,7 @@ textarea {
 
 .contact .row .form-container input:focus,
 textarea:focus {
-    border: 2rem solid var(--pink);
+    border: .2rem solid var(--pink);
 }
 
 .contact .row .form-container textarea {
